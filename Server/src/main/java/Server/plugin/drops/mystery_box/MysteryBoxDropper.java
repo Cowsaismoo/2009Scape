@@ -17,7 +17,7 @@ import java.util.List;
 public class MysteryBoxDropper extends DropPlugin {
 
     //percentage chance of it dropping, between 1 and 100.
-    private int chance = 15;
+    private int chance = 50;
     List<Item> drops = new ArrayList<>(); //the list of dropped items
 
     //standard way to initialize a drop plugin
